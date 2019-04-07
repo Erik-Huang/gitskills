@@ -27,4 +27,6 @@ $ git commit -m "branch test"
 $ git checkout master
 Switched to branch 'master'
 
-Creating a new branch is quick & simple.
+Creating a new branch is quick AND simple.
+
+
