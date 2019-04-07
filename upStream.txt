@@ -1,0 +1,23 @@
+Switched to branch 'newbranch'
+ANViR:gitskills Huangti$ git push
+fatal: The current branch newbranch has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin newbranch
+
+ANViR:gitskills Huangti$ git status
+On branch newbranch
+nothing to commit, working tree clean
+ANViR:gitskills Huangti$ git commit -m 'newbranch'
+On branch newbranch
+nothing to commit, working tree clean
+ANViR:gitskills Huangti$ git push --set-upstream origin newbranch
+Enter passphrase for key '/Users/Huangti/.ssh/id_rsa': 
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create a pull request for 'newbranch' on GitHub by visiting:
+remote:      https://github.com/Erik-Huang/gitskills/pull/new/newbranch
+remote: 
+To github.com:Erik-Huang/gitskills.git
+ * [new branch]      newbranch -> newbranch
+Branch 'newbranch' set up to track remote branch 'newbranch' from 'origin'.
